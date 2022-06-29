@@ -3,6 +3,7 @@ import 'package:task1_algoriza/constants/String.dart';
 import 'package:task1_algoriza/widgets/custom_btn.dart';
 import 'package:task1_algoriza/widgets/custom_text.dart';
 import 'package:task1_algoriza/widgets/custom_txt_form.dart';
+import 'package:task1_algoriza/widgets/phone_form.dart';
 
 class RegisterScreen extends StatelessWidget {
   const RegisterScreen({Key? key}) : super(key: key);
@@ -73,10 +74,7 @@ class RegisterScreen extends StatelessWidget {
                   SizedBox(
                     height: height * 0.02,
                   ),
-                  const CustomTxtForm(
-                      txt: 'Phone Number',
-                      hint: '010000000000',
-                      errorMsg: 'Please Enter Your Phone Number'),
+                  PhoneForm(),
                   SizedBox(
                     height: height * 0.02,
                   ),
