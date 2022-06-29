@@ -15,18 +15,17 @@ class CustomBtn extends StatelessWidget {
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    return ElevatedButton(
-      onPressed: onPress,
-      style: ElevatedButton.styleFrom(
-          primary: color,
-          elevation: 5,
-          side: const BorderSide(color: Colors.blue),
-          minimumSize: Size(double.infinity, height * 0.07),
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
-      child: Text(
-        txt,
-        style: TextStyle(fontSize: 20, color: textColor ?? Colors.white),
+    return Container(
+      height: height * 0.07,
+      width: double.infinity,
+      decoration: BoxDecoration(
+          color: color ?? Colors.blue, borderRadius: BorderRadius.circular(8)),
+      child: ElevatedButton(
+        onPressed: onPress,
+        child: Text(
+          txt,
+          style: TextStyle(fontSize: 20, color: textColor ?? Colors.white),
+        ),
       ),
     );
   }

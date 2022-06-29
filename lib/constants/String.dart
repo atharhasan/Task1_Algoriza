@@ -1,4 +1,3 @@
-import 'package:task1_algoriza/screens/login_screen.dart';
-
-const loginScreen = '/';
+const onBoarding = '/';
+const loginScreen = '/login_screen';
 const registerScreen = '/register_screen';
