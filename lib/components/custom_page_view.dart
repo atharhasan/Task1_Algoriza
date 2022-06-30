@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:task1_algoriza/components/custom_text.dart';
 import 'package:task1_algoriza/constants/String.dart';
-import 'package:task1_algoriza/widgets/custom_btn.dart';
-import 'package:task1_algoriza/widgets/custom_text.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class CustomPageView extends StatefulWidget {

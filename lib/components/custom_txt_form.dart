@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task1_algoriza/widgets/custom_text.dart';
+import 'package:task1_algoriza/components/custom_text.dart';
 
 class CustomTxtForm extends StatelessWidget {
   const CustomTxtForm(

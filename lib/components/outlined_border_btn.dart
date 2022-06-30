@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:task1_algoriza/widgets/custom_text.dart';
+import 'package:task1_algoriza/components/custom_text.dart';
 
 class OutlinedBorderBtn extends StatelessWidget {
   const OutlinedBorderBtn({Key? key}) : super(key: key);

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:task1_algoriza/components/custom_btn.dart';
+import 'package:task1_algoriza/components/custom_text.dart';
+import 'package:task1_algoriza/components/custom_txt_form.dart';
+import 'package:task1_algoriza/components/outlined_border_btn.dart';
+import 'package:task1_algoriza/components/phone_form.dart';
 import 'package:task1_algoriza/constants/String.dart';
-import 'package:task1_algoriza/widgets/custom_btn.dart';
-import 'package:task1_algoriza/widgets/custom_text.dart';
-import 'package:task1_algoriza/widgets/custom_txt_form.dart';
-import 'package:task1_algoriza/widgets/outlined_border_btn.dart';
-import 'package:task1_algoriza/widgets/phone_form.dart';
 
 class RegisterScreen extends StatelessWidget {
   const RegisterScreen({Key? key}) : super(key: key);

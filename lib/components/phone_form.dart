@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl_phone_number_input/intl_phone_number_input.dart';
-import 'package:task1_algoriza/widgets/custom_text.dart';
+import 'package:task1_algoriza/components/custom_text.dart';
 
 class PhoneForm extends StatelessWidget {
   PhoneForm({Key? key}) : super(key: key);
